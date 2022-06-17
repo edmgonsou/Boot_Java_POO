@@ -1,0 +1,60 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class VeiculoMain {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double cpcidade,csumo,km,preco, quanTanq,divisao;
+		int psgeiro;
+		
+		//veiculo 1				
+		System.out.println("\nQual a quantidade de passageiro do 1º veiculo: ");
+		psgeiro = sc.nextInt();
+		System.out.println("Qual a capacidade do tanque do 1º veiculo: ");
+		cpcidade = sc.nextDouble();
+		System.out.println("Qual o consumo do 1º veiculo: ");
+		csumo = sc.nextDouble();
+		System.out.println("Qual o preço do combustível: ");
+		preco = sc.nextDouble();
+		System.out.println("Quantos Km será o percurso: ");
+		km = sc.nextDouble();
+		
+		Veiculo veiculo1 = new Veiculo(90,16,9);
+		System.out.println(veiculo1.toString());
+		
+		/*quanTanq = veiculo1.tanqueViagem(km);
+		divisao = veiculo1.dividirDespesas(preco, km);
+		
+		System.out.println(veiculo1.toString());
+		System.out.printf("\nPara realizar o percurso será necessário %.2f"
+				+ "\nCada passageiro irá contribuir com R$ %.2f", quanTanq,divisao);
+		
+		//veiculo 2
+		System.out.println("\nQual a quantidade de passageiro do 2º veiculo: ");
+		psgeiro = sc.nextInt();
+		System.out.println("Qual a capacidade do tanque do 2º veiculo: ");
+		cpcidade = sc.nextDouble();
+		System.out.println("Qual o consumo do 2º veiculo: ");
+		csumo = sc.nextDouble();
+		System.out.println("Qual o preço do combustível: ");
+		preco = sc.nextDouble();
+		System.out.println("Quantos Km será o percurso: ");
+		km = sc.nextDouble();
+		
+		Veiculo veiculo2 = new Veiculo(cpcidade,psgeiro,csumo);
+		
+		quanTanq = veiculo2.tanqueViagem(km);
+		divisao = veiculo2.dividirDespesas(preco, km);
+		
+		System.out.println(veiculo2.toString());
+		System.out.printf("\nPara realizar o percurso será necessário %.2f"
+				+ "\nCada passageiro irá contribuir com R$ %.2f", quanTanq,divisao);*/
+		
+		
+		sc.close();
+	}
+
+}

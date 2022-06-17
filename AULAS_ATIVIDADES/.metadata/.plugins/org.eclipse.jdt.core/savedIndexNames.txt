@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+E:\TI ACADEMY\JAVA\POO\AULAS_ATIVIDADES\.metadata\.plugins\org.eclipse.jdt.core
+1590169572.index
+731120729.index
+1865797976.index
+2726785889.index
+3351338590.index
