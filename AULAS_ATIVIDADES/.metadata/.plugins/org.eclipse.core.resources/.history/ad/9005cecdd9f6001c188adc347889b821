@@ -1,0 +1,17 @@
+package aplicacao;
+
+import entidades.Produto;
+
+public class ProdutoMain {
+
+	public static void main(String[] args) {
+
+		Produto celular = new Produto();
+		
+		System.out.println(celular.nome);
+		System.out.println(celular.quantidade);
+		System.out.println(celular.valorUnitario);
+
+	}
+
+}

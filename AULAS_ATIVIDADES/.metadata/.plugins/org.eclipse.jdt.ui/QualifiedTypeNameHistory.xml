@@ -2,5 +2,18 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="geometria.Triangulo"/>
     <fullyQualifiedTypeName name="entidade.Veiculo"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="entidade.Funcionario"/>
+    <fullyQualifiedTypeName name="entidade.enums.Nivel"/>
+    <fullyQualifiedTypeName name="entidade.Departamento"/>
+    <fullyQualifiedTypeName name="entidade.Contrato"/>
+    <fullyQualifiedTypeName name="entidades.Produto"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="entidades.Aluno"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
 </qualifiedTypeNameHistroy>
